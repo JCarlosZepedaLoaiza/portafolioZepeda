@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Permanent+Marker&display=swap');
+
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: transparent; /* Esto es opcional, dependiendo de tus necesidades */
+}
+
+.btn-contact-me{
+    padding: 10px 16px;
+    color: white;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 2.2rem
+}
+
+
+.fnt-title{
+    font-family: 'Paytone One', sans-serif;
+}
+
+.name{
+    color: #DDDDDD;
+    -webkit-text-stroke: 2px black;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.svg {
+    position: relative;
+    max-width: 100%;
+    height: auto; /* Mantén la proporción de aspecto original */
+
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+#img-progra{
+    width: 70%;
+    position: absolute;
+}
+
+
+@media (min-width: 992px) {
+    .name{
+        font-size: 50px;
+    }
+    #title-section{
+        height: 30rem;
+    }
+}

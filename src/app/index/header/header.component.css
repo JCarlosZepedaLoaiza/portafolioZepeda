@@ -1,0 +1,25 @@
+.navbar{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-item{
+    margin: 0 2rem;
+}
+
+.nav-item a{
+    color: white;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-item a:hover{
+    border-bottom: 5px solid white;
+}
+
+.dropdown-menu a:hover{
+    color: black;
+}
+
+.btn-contacto {
+    background-color: white;
+    border-radius: 20px;
+}

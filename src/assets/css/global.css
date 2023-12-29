@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+.bg-primary-blue{
+    background-color: #0466C8;
+}
+
+.bg-secondary-gray{
+    background-color: #33415C;
+}
+
+.txt-gray-fg{
+    color: #5D5D81;
+}

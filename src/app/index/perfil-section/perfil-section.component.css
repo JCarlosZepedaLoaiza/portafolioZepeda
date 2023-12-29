@@ -1,0 +1,44 @@
+#txt_Perfil{
+    font-family: 'Passion One', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+#rectangle_top{
+    width: 5rem;
+    height: 1rem;
+}
+
+.contenedor {
+    position: relative;
+  }
+  
+.contenedor::before,
+.contenedor::after {
+content: "";
+position: absolute;
+width: 15rem; /* Ancho del rectángulo */
+height: 50px; /* Alto del rectángulo */
+background-color: #33415C; /* Color del rectángulo */
+}
+
+.contenedor::before{
+    top: 0;
+    left: 0;
+}
+
+.contenedor::after{
+    bottom: 0;
+    right: 0;
+}
+
+.img-perfil{
+    width: 300px;
+    height: 300px;
+}
+  
+.text_Perfil{
+    font-family: 'Passion One', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
