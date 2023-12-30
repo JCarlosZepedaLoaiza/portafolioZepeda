@@ -9,6 +9,7 @@
 .nav-item a{
     color: white;
     border-bottom: 5px solid transparent;
+    margin-bottom: 5px;
 }
 
 .nav-item a:hover{
@@ -23,3 +24,25 @@
     background-color: white;
     border-radius: 20px;
 }
+
+.navbar-toggler {
+    background-color: white; /* Cambia este color al que desees */
+  }
+.navbar-toggler-icon{
+    background-color: white;
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+    animation: sweep 0.3s ease-in-out;
+  }
+
+  /* Define la animación de barrido */
+  @keyframes sweep {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
