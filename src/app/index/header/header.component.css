@@ -3,13 +3,12 @@
 }
 
 .nav-item{
-    margin: 0 2rem;
+    margin: auto 2rem;
 }
 
 .nav-item a{
     color: white;
     border-bottom: 5px solid transparent;
-    margin-bottom: 5px;
 }
 
 .nav-item a:hover{
