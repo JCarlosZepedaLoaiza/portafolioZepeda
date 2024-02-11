@@ -12,6 +12,14 @@
     background-color: #33415C;
 }
 
+.bg-primary-gray{
+    background-color: #DDDDDD;
+}
+
 .txt-gray-fg{
     color: #5D5D81;
+}
+
+.font-tittle{
+    font-family: 'Passion One', sans-serif;
 }

@@ -8,6 +8,8 @@ import { HeaderComponent } from './index/header/header.component';
 import { FooterComponent } from './index/footer/footer.component';
 import { TitleSectionComponent } from './index/title-section/title-section.component';
 import { PerfilSectionComponent } from './index/perfil-section/perfil-section.component';
+import { EducationSectionComponent } from './index/education-section/education-section.component';
+import { CardStudyComponent } from './index/education-section/card-study/card-study.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PerfilSectionComponent } from './index/perfil-section/perfil-section.co
     HeaderComponent,
     FooterComponent,
     TitleSectionComponent,
-    PerfilSectionComponent
+    PerfilSectionComponent,
+    EducationSectionComponent,
+    CardStudyComponent
   ],
   imports: [
     BrowserModule,
